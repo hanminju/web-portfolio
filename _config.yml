@@ -1,7 +1,7 @@
 # Site settings
 title: 한민주 포트폴리오
 email: alswn4423@gmail.com
-url: https://hanminju.github.io/web-portfolio/
+url: https://hanminju.github.io
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
 skills: "Web Publisher - Graphic Artist - User Experience Designer"
@@ -21,7 +21,7 @@ contact: static
 
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
+disqus_shortname: web-portfolio
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
