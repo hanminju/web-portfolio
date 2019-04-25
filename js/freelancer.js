@@ -35,3 +35,15 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+/* 프로필 탭메뉴 */
+$(".tab_menu li").click(function(){
+
+	$(".tab_menu li").removeClass("on");
+	$(this).addClass("on");
+
+	var index_num = $(this).index();
+	console.log(index_num);
+	$("div.tab_list > div").hide();
+	$("div.tab_list > div").eq(index_num).fadeIn();
+});
