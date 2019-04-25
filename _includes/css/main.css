@@ -64,7 +64,8 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #{{ site.color.primary }};
+/*    background-color: #{{ site.color.primary }}; */
+	background-color: #000;
 }
 
 hr.star-primary {
@@ -458,7 +459,7 @@ footer .footer-below {
 }
 
 /* ABOUT */
-div#ABOUT{width:100%; overflow:hidden;background: url('/img/about/about_bg.jpg')no-repeat 50% 50% #000000;
+div#ABOUT{width:100%; overflow:hidden;background: url('/web-portfolio/img/about/about_bg.jpg')no-repeat 50% 50% #000000;
 		  background-size:cover; background-position:center; }
 div#ABOUT h2.about_tit{font-size:0;}
 div#ABOUT h2.about_tit img{display:block; width:100%;}
@@ -474,7 +475,7 @@ div#ABOUT div.about_box div.about_left h3{display:inline-block;}
 div#ABOUT div.about_box div.about_left p{margin-top:15px; font-size:14px; font-family:'NanumGothic'; color:#ffffff;}
 
 /* 탭메뉴 공통 */
-div.tab_content > ul li{overflow:hidden; background:url('/img/about/about_icon.png')no-repeat;}
+div.tab_content > ul li{overflow:hidden; background:url('/web-portfolio/img/about/about_icon.png')no-repeat;}
 h3.tab_tit{border-bottom:4px solid #00ffae; font-family:'Nanum Myeongjo'; font-weight:bold; color:#ffffff;}
 
 
