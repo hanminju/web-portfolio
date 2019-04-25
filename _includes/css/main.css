@@ -455,3 +455,94 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+/* ABOUT */
+div#ABOUT{width:100%; overflow:hidden;background: url('/img/about/about_bg.jpg')no-repeat 50% 50% #000000;
+		  background-size:cover; background-position:center; }
+div#ABOUT h2.about_tit{font-size:0;}
+div#ABOUT h2.about_tit img{display:block; width:100%;}
+div#ABOUT span.about_tit_line{display:block; width:50px; height:2px; background:#00ffae;}
+div#ABOUT p.about_tit_sub{margin:20px auto 0 auto; text-align:center; color:#ffffff; font-family:'NanumSquare';}
+
+div#ABOUT ul.tab_menu{margin:6% auto 2% auto; width:305px; height:30px; text-align:center;}
+div#ABOUT ul.tab_menu li{display:inline-block; text-align:center; color:#ffffff; font-weight:bold; font-family:'NanumGothic'; background:#191e20; 
+						border-radius:10px; text-decoration:none; margin:0 5px; transition:all 0.3s ease; cursor:pointer;}
+div#ABOUT ul.tab_menu li.on{background:#00ffae; color:#191e20;}
+div#ABOUT div.about_box{width:80%; margin:0 auto;}
+div#ABOUT div.about_box div.about_left h3{display:inline-block;}
+div#ABOUT div.about_box div.about_left p{margin-top:15px; font-size:14px; font-family:'NanumGothic'; color:#ffffff;}
+
+/* 탭메뉴 공통 */
+div.tab_content > ul li{overflow:hidden; background:url('/img/about/about_icon.png')no-repeat;}
+h3.tab_tit{border-bottom:4px solid #00ffae; font-family:'Nanum Myeongjo'; font-weight:bold; color:#ffffff;}
+
+
+/* 탭메뉴 프로필 */
+div#ABOUT div.about_box div.tab_pf > ul li h4{margin:0; width:80%; float:left; font-family:'NanumGothic'; color:#ffffff;}
+div#ABOUT div.about_box div.tab_pf > ul li h4.pr_tit{width:20%;}
+
+
+/* 탭메뉴 히스토리 */
+div#ABOUT div.about_box div.tab_his > ul li h4{margin:0 0 10px 0;font-size:18px; font-family:'NanumGothic'; color:#ffffff;}
+div#ABOUT div.about_box div.tab_his > ul li h4.pr_tit{font-weight:bold;}
+div#ABOUT div.about_box div.tab_his > ul li p{font-size:14px; font-family:'NanumGothic'; color:#ffffff; margin-top:5px; }
+
+/* 탭메뉴 자기소개 */
+div.tab_int > p.tab_int_text{color:#ffffff;}
+
+/* 자기소개 */
+div#ABOUT{height:1160px;}
+div#ABOUT h2.about_tit{width:94px; margin:105px auto 0 auto;}
+div#ABOUT span.about_tit_line{margin:20px auto 0 auto;}
+div#ABOUT p.about_tit_sub{font-size:18px;}
+div#ABOUT ul.tab_menu li{font-size:14px; width:85px; height:30px; line-height:30px;}
+div#ABOUT div.about_box div.about_left{text-align:center;}
+h3.tab_tit{font-size:24px; height:40px;}
+div.tab_content > ul{padding:40px 0;}
+div.tab_content > ul li{padding:0 0 30px 30px; background-size:20px;}
+/*profile*/
+div#ABOUT div.about_box div.tab_pf > ul li h4{font-size:18px;}
+div#ABOUT div.about_box div.tab_pf > ul li h4.pr_tit{width:15%;}
+/*history*/
+div#ABOUT div.about_box div.tab_his > ul li h4{font-size:18px;}
+div#ABOUT div.about_box div.tab_his > ul li p{font-size:16px;}
+
+/* 스킬 수치화 */
+
+div#SKILLS{width:100%;}
+div#SKILLS div.skill_wrap{margin:0 auto;}
+div#SKILLS h2{/* margin:0px 80px; height:23px;*/ border-bottom:1px solid #dddddd; position:relative;}
+div#SKILLS h2 img{display:block; position:absolute; background:#fff; margin:0 auto; left:50%; transform:translateX(-50%);}
+div#SKILLS div.skill_box{width:90%; margin:0 auto;}
+div#SKILLS div.skill_box ul{overflow:hidden;}
+div#SKILLS div.skill_box ul li{transition:all 0.2s ease;}
+/* div#SKILLS div.skill_box ul li{width:23.5%; margin-left:2%; float:left;}
+div#SKILLS div.skill_box ul li:first-child{margin-left:0px;} */
+div#SKILLS div.skill_box ul li h3{font-weight:bold; color:#3f444d; font-family:'NanumGothic'; text-align:center; margin:15px 0; transition:all 0.2s ease;}
+div#SKILLS div.skill_box ul li canvas{display:block; width:45%; margin:0 auto; content:"";}
+p.skill_text{ margin:0 auto; text-align:center; color:#666666; transition:all 0.2s ease;}
+
+/* 스킬 */
+div#SKILLS h2 img{ width:85%; top:-5px; padding:0 15px;}
+div#SKILLS div.skill_box{padding:30px 0;}
+div#SKILLS div.skill_box ul {margin-top:60px;}
+div#SKILLS div.skill_box ul li{height:230px;}
+div#SKILLS div.skill_box ul li h3{font-size:12px;}
+p.skill_text{width:90%; font-size:10px; line-height:14px;}
+
+/* 스킬 */
+div#SKILLS h2 img{ width:371px; height:18px; top:-7px; }
+div#SKILLS div.skill_box{padding:55px 0;}
+div#SKILLS div.skill_box ul {margin-top:75px;}
+div#SKILLS div.skill_box ul li{height:280px;}
+div#SKILLS div.skill_box ul li h3{font-size:14px;}
+p.skill_text{width:80%; font-size:12px; line-height:18px;}
+
+/* 스킬 */
+div#SKILLS div.skill_box{width:90%;}
+div#SKILLS h2 img{width:457px; height:23px; top:-10px;}
+div#SKILLS div.skill_box{padding:90px 0;}
+div#SKILLS div.skill_box ul {margin-top:100px;}
+div#SKILLS div.skill_box ul li{height:330px;}
+div#SKILLS div.skill_box ul li h3{font-size:15px;}
+p.skill_text{width:70%; font-size:14px;line-height:20px;}
