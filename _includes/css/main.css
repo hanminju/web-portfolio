@@ -184,7 +184,8 @@ section h2 {
 section.success {
     color: #fff;
 /*    background: #{{ site.color.primary }}; */
-	background: url('/web-portfolio/img/about/about_bg.jpg')no-repeat 50% 50% #000000
+	background: url('/web-portfolio/img/about/about_bg.jpg')no-repeat 50% 50% #000000;
+	background-size: cover;
 }
 
 @media(max-width:767px) {
