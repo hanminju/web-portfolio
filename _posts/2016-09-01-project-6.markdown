@@ -9,6 +9,6 @@ company: (주)허블
 description: 회사소개 정보제공
 skills: html5, css3, javascript, jquery
 contribution: 웹표준성에 맞는 코딩 및 유지보수(모바일 버전,PC 버전)
-project-url: http://huvleview.com
+project-url: huvleview.com
 
 ---

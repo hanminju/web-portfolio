@@ -9,6 +9,6 @@ company: (주)허블
 description: 국내/외 암호화 화폐 거래소별로 시세 차이 분석 및 암호화 화폐 관련 정보 제공
 skills: html5, css3, javascript, jquery
 contribution: 웹표준성에 맞는 코딩 및 유지보수<br>모바일 버전, PC 버전
-project-url: http://bitkok.com
+project-url: bitkok.com
 
 ---

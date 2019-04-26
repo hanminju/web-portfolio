@@ -9,6 +9,6 @@ company: (주)허블
 description: 베트남 사업 확장을 위해 앱사 고객을 위한 허블뷰의 검색 포털/브라우저 기능 제공
 skills: html5, css3, javascript, jquery
 contribution: 웹표준성에 맞는 코딩 및 유지보수<br>포털 메인 화면 및 뉴스 메인 화면 코딩
-project-url: http://vn.huvle.com
+project-url: vn.huvle.com
 
 ---
