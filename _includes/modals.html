@@ -12,12 +12,11 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>{{ post.title }}</h2>
+							{% if post.project-name %}
+                                <h2>{{ post.project-name }}</h2>
+                            {% endif %}
                             <hr class="star-primary">
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            {% if post.project-name %}
-                                <p>{{ post.project-name }}</p>
-                            {% endif %}
 							{% if post.company %}
                                 <p>{{ post.company }}</p>
                             {% endif %}
