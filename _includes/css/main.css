@@ -566,14 +566,10 @@ div#PROJECT ul.tab_menu li{display:inline-block; text-align:center; color:#fffff
 div#PROJECT ul.tab_menu li.on{background:#00ffae; color:#191e20;}
 div#PROJECT div.about_box{width:80%; margin:0 auto;}
 div#PROJECT div.about_box div.about_left h3{display:inline-block;}
-div#PROJECT div.about_box div.about_left p{margin-top:15px; font-size:14px; font-family:'NanumGothic'; color:#ffffff;}
-
-/* 탭메뉴 공통 */
-div.tab_content > ul li{overflow:hidden; background:url('/web-portfolio/img/about/about_icon.png')no-repeat;}
-h3.tab_tit{border-bottom:4px solid #00ffae; font-family:'Nanum Myeongjo'; font-weight:bold; color:#ffffff;}
+div#PROJECT div.about_box div.about_left p{margin-top:15px; font-size:14px; font-family:'NanumGothic'; color:#000000;}
 
 /* 탭메뉴 프로필 */
-div#PROJECT div.about_box div.tab_pf > ul li h4{margin:0; width:80%; float:left; font-family:'NanumGothic'; color:#ffffff;}
+div#PROJECT div.about_box div.tab_pf > ul li h4{margin:0; width:80%; float:left; font-family:'NanumGothic'; color:#000000;}
 div#PROJECT div.about_box div.tab_pf > ul li h4.pr_tit{width:20%;}
 
 /*profile*/
