@@ -18,44 +18,52 @@
                             <hr class="star-primary">
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
 
-							<div class="tab_list col-xs-12 col-sm-7 col-md-7 col-xl-7">
-								<div class="tab_pf tab_content" style="display:block;">
-									<h3 class="tab_tit">PROFILE<!-- <img src="/img/about/about_tab_tit01.png" alt="profile"> --></h3>
-									<ul>
-									{% if post.company %}
-										<li>
-											<h4 class="pr_tit">소속 회사: </h4>
-											<h4>{{ post.company }}</h4>
-										</li>
-									{% endif %}
-									{% if post.description %}
-										<li>
-											<h4 class="pr_tit">주요 내용: </h4>
-											<h4>{{ post.description }}</h4>
-										</li>
-									{% endif %}
-									{% if post.skills %}
-										<li>
-											<h4 class="pr_tit">사용 기술: </h4>
-											<h4>{{ post.skills }}</h4>
-										</li>
-									{% endif %}
-									{% if post.contribution %}
-										<li>
-											<h4 class="pr_tit">공헌한 점: </h4>
-											<h4>{{ post.contribution }}</h4>
-										</li>
-									{% endif %}
-									{% if post.project-url %}
-										<li>
-											<h4 class="pr_tit">URL: </h4>
-											<h4><a href="http://{{ post.project-url }}">{{ post.project-url }}</a></h4>
-										</li>
-									{% endif %}
-									</ul>
+							<div id="PROJECT">
+								<span id="about_link" style="position:relative; top:-70px; height:0px; width:100%; display:block;"></span>
+								<div class="about_wrap fromBottomIn" data-scroll="toggle(.fromBottomIn, .fromBottomOut)">
+									<div class="about_box container">
+										<style>
+											.tab_list{width:100% !important;}
+										</style>
+										<div class="tab_list col-xs-12 col-sm-7 col-md-7 col-xl-7">
+											<div class="tab_pf tab_content" style="display:block;">
+												<ul>
+												{% if post.company %}
+													<li>
+														<h4 class="pr_tit">소속 회사: </h4>
+														<h4>{{ post.company }}</h4>
+													</li>
+												{% endif %}
+												{% if post.description %}
+													<li>
+														<h4 class="pr_tit">주요 내용: </h4>
+														<h4>{{ post.description }}</h4>
+													</li>
+												{% endif %}
+												{% if post.skills %}
+													<li>
+														<h4 class="pr_tit">사용 기술: </h4>
+														<h4>{{ post.skills }}</h4>
+													</li>
+												{% endif %}
+												{% if post.contribution %}
+													<li>
+														<h4 class="pr_tit">공헌한 점: </h4>
+														<h4>{{ post.contribution }}</h4>
+													</li>
+												{% endif %}
+												{% if post.project-url %}
+													<li>
+														<h4 class="pr_tit">URL: </h4>
+														<h4><a href="http://{{ post.project-url }}">{{ post.project-url }}</a></h4>
+													</li>
+												{% endif %}
+												</ul>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
-
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
