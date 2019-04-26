@@ -12,26 +12,31 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-							{% if post.project-name %}
-                                <h2>{{ post.project-name }}</h2>
-                            {% endif %}
-                            <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-							{% if post.company %}
-                                <p>{{ post.company }}</p>
-                            {% endif %}
-							{% if post.description %}
-                                <p>{{ post.description }}</p>
-                            {% endif %}
-							{% if post.skills %}
-                                <p>{{ post.skills }}</p>
-                            {% endif %}
-							{% if post.contribution %}
-                                <p>{{ post.contribution }}</p>
-                            {% endif %}
-							{% if post.url %}
-                                <p>{{ post.url }}</p>
-                            {% endif %}
+
+							<div class="tab_list col-xs-12 col-sm-7 col-md-7 col-xl-7">
+								<div class="tab_pf tab_content" style="display:block;">
+									<h3 class="tab_tit">PROFILE<!-- <img src="/img/about/about_tab_tit01.png" alt="profile"> --></h3>
+									<ul>
+										<li>
+											<h4 class="pr_tit">이름</h4>
+											<h4>한민주</h4>
+										</li>
+										<li>
+											<h4 class="pr_tit">나이</h4>
+											<h4>29살 (1991. 05. 21)</h4>
+										</li>
+										<li>
+											<h4 class="pr_tit">학력</h4>
+											<h4>국제대학 패션디자인전공</h4>
+										</li>
+										<li>
+											<h4 class="pr_tit">성격</h4>
+											<h4>밝고 긍정적이며 장난끼가 많은 성격입니다.</h4>
+										</li>
+									</ul>
+								</div>
+							</div>
+
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
