@@ -1,0 +1,14 @@
+---
+layout: default
+modal-id: 6
+date: 2016-09-01
+img: 06_huvleview.png
+alt: image-alt
+project-name: 허블 홈페이지
+company: (주)허블
+description: 회사소개 정보제공
+skills: html5, css3, javascript, jquery
+contribution: 웹표준성에 맞는 코딩 및 유지보수(모바일 버전,PC 버전)
+url: http://huvleview.com
+
+---
