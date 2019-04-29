@@ -483,7 +483,6 @@ div#ABOUT div.about_box div.tab_his > ul li p{font-size:14px; font-family:'Nanum
 div.tab_int > p.tab_int_text{color:#ffffff;}
 
 /* 자기소개 */
-div#ABOUT{height:800px;}
 div#ABOUT h2.about_tit{width:94px; margin:105px auto 0 auto;}
 div#ABOUT span.about_tit_line{margin:20px auto 0 auto;}
 div#ABOUT p.about_tit_sub{font-size:18px;}
