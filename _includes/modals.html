@@ -30,32 +30,32 @@
 												<ul>
 												{% if post.company %}
 													<li>
-														<h4 class="pr_tit">소속 회사: </h4>
-														<h4>{{ post.company }}</h4>
+														<h4 class="pr_tit">소속 회사</h4>
+														<h4>- {{ post.company }}</h4>
 													</li>
 												{% endif %}
 												{% if post.description %}
 													<li>
-														<h4 class="pr_tit">주요 내용: </h4>
-														<h4>{{ post.description }}</h4>
+														<h4 class="pr_tit">주요 내용</h4>
+														<h4>- {{ post.description }}</h4>
 													</li>
 												{% endif %}
 												{% if post.skills %}
 													<li>
-														<h4 class="pr_tit">사용 기술: </h4>
-														<h4>{{ post.skills }}</h4>
+														<h4 class="pr_tit">사용 기술</h4>
+														<h4>- {{ post.skills }}</h4>
 													</li>
 												{% endif %}
 												{% if post.contribution %}
 													<li>
-														<h4 class="pr_tit">공헌한 점: </h4>
-														<h4>{{ post.contribution }}</h4>
+														<h4 class="pr_tit">공헌한 점</h4>
+														<h4>- {{ post.contribution }}</h4>
 													</li>
 												{% endif %}
 												{% if post.project-url %}
 													<li>
-														<h4 class="pr_tit">URL: </h4>
-														<h4><a href="http://{{ post.project-url }}">{{ post.project-url }}</a></h4>
+														<h4 class="pr_tit">URL</h4>
+														<h4><a href="http://{{ post.project-url }}">- {{ post.project-url }}</a></h4>
 													</li>
 												{% endif %}
 												</ul>
