@@ -8,6 +8,6 @@ project-name: 사내 매출관련 관리자 사이트
 company: (주)허블
 description: 허블 포털사이트 광고 노출에 따른 수익 통계 및 매출 관련 관리자 사이트
 skills: html5, css3, javascript, jquery
-contribution: 웹표준성에 맞는 코딩 및 유지보수<br>매입, 매출, 정산 담당자가 보기 직관적인 전표 통계화면 코딩<br>각종 도표, 그래프, 차트화면 코딩
+contribution: 웹표준성에 맞는 코딩 및 유지보수 매입, 매출, 정산 담당자가 보기 직관적인 전표 통계화면 코딩 각종 도표, 그래프, 차트화면 코딩
 
 ---
