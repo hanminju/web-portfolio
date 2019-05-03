@@ -242,6 +242,17 @@ section.success {
     z-index: 2;
 }
 
+
+#portfolio .portfolio-item .portfolio-link .caption>span {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;}
+
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
