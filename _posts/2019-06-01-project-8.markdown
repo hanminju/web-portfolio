@@ -1,0 +1,14 @@
+---
+layout: default
+modal-id: 8
+date: 2019-06-01
+img: 08_battlefieldfc_betting.png
+alt: image-alt
+project-name: 배팅 사이트
+company: (주)배틀필드FC
+description: MMA 선수 경기별로 암호화화페를 이용해 승부에 대한 배팅을 하는 사이트
+skills: html5, css3, javascript, jquery
+contribution: 웹표준성에 맞는 코딩, 반응형 웹사이트로 개발
+project-url: huvleview.com
+
+---

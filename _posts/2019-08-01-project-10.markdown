@@ -1,0 +1,14 @@
+---
+layout: default
+modal-id: 10
+date: 2019-08-01
+img: 10_battlefieldfc_metching.png
+alt: image-alt
+project-name: 팬 매칭 사이트
+company: (주)배틀필드FC
+description: 배틀필드FC에 소속되어있는 선수들 매칭을 팬들이 직접 투표하여 정하는 사이트
+skills: html5, css3, javascript, jquery
+contribution: 웹표준성에 맞는 코딩, 반응형 웹페이지 개발
+project-url: huvleview.com
+
+---
