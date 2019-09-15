@@ -9,6 +9,5 @@ company: (주)배틀필드FC
 description: 선수 Match up 정보, 선수 정보, 경기 중계, 선수별 체급 소개 등
 skills: html5, css3, javascript, jquery
 contribution: 웹표준성에 맞는 코딩 및 유지보수, 반응형 웹사이트 개발
-project-url: huvleview.com
 
 ---
